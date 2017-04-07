@@ -1,0 +1,261 @@
+.bg img{
+	cursor:pointer;
+}
+.banner{
+	width: 960px;
+	height: 312px;
+	border-radius: 5px;
+	margin-top: 20px;
+	padding-top: 10px;
+	background-color: #fff;
+	position: relative;
+}
+.picShow{
+	width: 940px;
+	height: 300px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.pic{
+	width: 3760px;
+	height: 300px;
+}
+.banner img{
+	display: block;
+	float: left;
+	width: 940px;
+	height: 300px;
+	margin: 0 auto;
+}
+.banner ul{
+	position: absolute;
+	bottom:3px;
+	right: 10px;
+}
+.banner ul li{
+	float: left;
+	margin-left: 10px;
+}
+.banner ul a{
+	display: block;
+	text-decoration: none;
+	width: 22px;
+	font-size: 12px;
+	line-height: 22px;
+	border: 1px solid #ccc;
+	text-align: center;
+}
+.main{
+	width: 960px;
+	margin: 0 auto;
+}
+.dapei{
+	margin-top: 20px;
+	width: 920px;
+	padding:20px;
+	border-radius: 5px;
+	background-color: #fff;
+}
+.dapei>h3{
+	font-size: 20px;
+	color: #ff3366;
+	margin-bottom: 10px;
+}
+.dapei>h3>span{
+	color: #666666;
+}
+.dapei ul{
+	width: 960px;
+}
+.dapei ul li{
+	overflow: hidden;
+	width: 308px;
+	background-color: #fff;
+	float: left;
+}
+.dapei ul li:first-child>div{
+	position: relative;
+	float: left;
+	margin-right: 3px;
+	margin-top: 3px;
+}
+.dapei ul li:first-child img{
+	display: block;
+
+	width: 150px;
+	height: 170px;
+	
+}
+.dapei ul li:first-child p{
+	width: 150px;
+	line-height: 23px;
+	font-size: 12px;
+	color: #ff6699;
+	font-weight: bold;
+	text-align: center;
+	position: absolute;
+	bottom: 0;
+	background-color:rgba(204, 204, 204, 0.71);
+}
+.dapei ul li:nth-child(2) img{
+	display: block;
+	margin-top: 3px;
+	width: 300px;
+	height: 346px;
+	margin: 0 auto;
+}
+.dapei ul li:last-child>div{
+	position: relative;
+	float: left;
+	margin-right: 3px;
+	margin-top: 3px;
+}
+.dapei ul li:last-child img{
+	display: block;
+	width: 150px;
+	height: 170px;
+	
+}
+.dapei ul li:last-child p{
+	width: 150px;
+	line-height: 23px;
+	font-size: 12px;
+	color: #ff6699;
+	font-weight: bold;
+	text-align: center;
+	position: absolute;
+	bottom: 0;
+	background-color:rgba(204, 204, 204, 0.71);
+}
+.dapei ul li:nth-child(2){
+	position: relative;
+}
+.meiridaren{
+	background-color: rgba(255, 255, 255, 0.68);
+	width: 300px;
+	padding: 8px;
+	position: absolute;
+	bottom: 0;
+}
+.meiridaren h3{
+	font-size: 16px;
+	color: #ff6699;
+}
+.meiridaren img{
+	float: left;
+}
+.meiridaren h3 span{
+	font-size: 16px;
+	color: black;
+}
+.meiridaren p{
+	font-size: 12px;
+	line-height: 24px;
+	color: #666;
+}
+.fenxiang{
+	width: 924px;
+	padding: 18px;
+	margin-top: 20px;
+	background-color: #fff;
+	border-radius: 5px;
+}
+.fenxiang li>img:first-child{
+	margin-top: 10px;
+}
+.leftpic img{
+	margin-top: 10px;
+}
+.fenxiangtop>ul li{
+	margin-left: 12px;
+	float: left;
+}
+.fenxiangtop>ul li:nth-child(2){
+	padding-right: 10px;
+	border-right: 1px solid #ccc;
+}
+.fenxiangtop h3{
+	float: left;
+	color: #66cccc;
+	margin-top: 2px;
+	margin-right: 27px;
+}
+.fenxiangtop span{
+	color: #ff3366;
+}
+.fenxiangtop>ul a{
+	text-decoration: none;
+	font-size: 12px;
+	line-height: 20px;
+	color: #666;
+}
+.fenxiangtop>ul li:last-child{
+	margin-left: 412px;
+}
+.leftpic{
+	float: left;
+}
+.rightpic{
+	float: left;
+}
+.rightpic>ul{
+	clear: both;
+	overflow: hidden;
+}
+.rightpic ul li{
+	float: left;
+	margin-left: 10px;
+	position: relative;
+}
+.rightpic li>img:first-child{
+	display: block;
+	width: 150px;
+	height: 160px;
+}
+.rightpic ul:first-child li:nth-child(4)>img:first-child{
+	width: 233px;
+}
+.rightpic ul:last-child li:nth-child(1)>img:first-child{
+	width: 233px;
+}
+.main>div:last-child{
+	margin-bottom: 280px;
+}
+.rightpic p{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 132px;
+	padding: 9px;
+	font-size: 12px;
+	color: #666;
+	line-height: 12px;
+	background-color: rgba(255, 255, 255, 0.74);
+}
+.rightpic p>span:nth-child(2){
+	font-weight: bold;
+	color: #ff6699;
+	margin-left: 4px;
+}
+.rightpic p>span:nth-child(3){
+	float: right;
+}
+.rightpic ul:first-child li:nth-child(4)>p{
+	width: 215px;
+}
+.rightpic ul:last-child li:nth-child(1)>p{
+	width: 215px;
+}
+.rightpic ul:first-child li:nth-child(4)>p>span:nth-child(2){
+	font-weight: bold;
+	color: #ff6699;
+	margin-right: 154px;
+}
+.rightpic ul:last-child li:nth-child(1)>p>span:nth-child(2){
+	font-weight: bold;
+	color: #ff6699;
+	margin-right: 155px;
+}
+.banner ul .bg2{
+	background-color: #fff;
+}
