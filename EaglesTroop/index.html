@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+		*{margin: 0;padding: 0;}
+		.top,.banner,.main,.footer{min-width: 1005px;}
+		.top{background-color: #000000;}
+		.top-inner{width: 1035px;height: 143px;margin: 0 auto;}
+		.logo{width: 94px;height: 93px;margin-top: 25px;background-color: #000000;float: left;}
+		.top ul{list-style: none;}
+		h1{float: left;font-size: 60px;color: #cc6600;margin-top: 40px;}
+		.hei{color: #ffffff;}
+		.top a{text-decoration: none;font-size: 14px;color: #666666;margin-top: 69px;margin-right: 27px;float: left;font-weight: bold;}
+		.top a:hover{color: #cc3300;}
+		.about{margin-left: 68px;}
+		.banner{background-image: url(images/indexImg/banner-bg_02.jpg);}
+		.banner-inner{width: 977px;height: 348px;margin: 0 auto;position: relative;}
+		.b-l-box{width: 590px;float: left;}
+		.banner h3{font-size: 29;color: #ffffff;margin-top: 67px;}
+		.banner p{color: #666666;font-size: 14px;font-weight: bold;margin-top: 22px;}
+		.banner p a{color: #cc3300;font-size: 14px;}
+		.b-l-more{display:block;width: 106px;height: 40px; font-size: 26px; color: #ffffff;line-height: 35px;text-align: center;background-image: url(images/indexImg/more-bg_03.jpg);margin-top: 22px;border-radius: 4px;text-decoration: none;}
+		.banner img{float: right;position: absolute;top:-39px;left:620px;}
+		.main{background-image: url(images/indexImg/main-bg_02.jpg);}
+		.main-inner{width: 940px;height: 896px;margin: 0 auto;}
+		.maintop{height: 260px;}
+		.maintop img{margin-top: 40px;}
+		.m-t-pic1{float: left;}
+		.m-t-pic2{float: left;margin-left: 20px;}
+		.m-t-pic3{float: right;}
+		.main-inner-left{width: 620px;height: 636px;float: left;}
+		.m-i-l-top{width: 620px;height: 315px;}
+		.m-i-l-top h3{font-size: 35px;color: #ffffff;height: 40px;padding-top: 7px;}
+		.m-i-l-top img{float: left;margin-top: 17px;}
+		.m-i-l-text{width: 531px;height: 205px;margin-top: 24px;margin-left: 20px;float: left;}
+		.m-i-l-text p{font-size: 14px;color: #666666;font-weight: bold;margin-bottom: 22px;}
+		.m-i-l-text span{color: #ffffff;}
+		.m-i-l-text a{display:block;width: 106px;height: 40px; font-size: 26px; color: #ffffff;line-height: 35px;text-align: center;background-image: url(images/indexImg/more-bg_03.jpg);margin-top: 22px;border-radius: 4px;text-decoration: none;}
+		.m-i-l-bot{width: 620px;height: 321px;}
+		.m-i-l-bot-text{width: 538px;height: 240px;float: left;margin-top: 31px;margin-left: 20px;}
+		.m-i-l-botrili{margin-top: 31px;float: left;}
+		.m-i-l-bot-text img{float: left;}
+		.m-i-l-bot-text p{width: 303px;height: 173px;float: left;margin-left: 13px;color: #666666;font-weight: bold;}
+		.m-i-l-bot-text span{color: #ffffff;font-weight: bold;}
+		.m-i-l-bot-text a{display:block;width: 106px;height: 40px; font-size: 26px; color: #ffffff;line-height: 35px;text-align: center;background-image: url(images/indexImg/more-bg_03.jpg);margin-top: 180px;border-radius: 4px;text-decoration: none;}
+		.main-inner-right{width: 300px;height: 636px;float: right;}
+		.main-inner-right ul{list-style: none;margin-left: 28px;}
+		.main-inner-right h3{width: 300px;height: 48px;background-color: #000000;border-radius: 6px; font-size: 24px;color: #ffffff;line-height: 48px;margin-bottom: 23px;}
+		.main-inner-right li{width: 250px;height: 35px;background-image: url(images/indexImg/mainright-jt_03.png);background-repeat: no-repeat;background-position: left center;border-bottom: 1px #333333 dotted;}
+		.main-inner-right-top p{line-height: 35px;margin-left: 10px;font-size: 14px;font-weight: bold;color: #fff;}
+		.main-inner-right-bot{width: 300px;height: 212px;background-image: url(images/indexImg/mainrightbot-bg_03.gif);border-radius: 7px;margin-top: 31px;padding-top: 20px;}
+		.main-inner-right-bot h4{font-size: 20px;color: #fff;margin-bottom: 15px;}
+		.main-inner-right-bot-text{width: 260px;height: 200px;margin-left: 20px;}
+		.main-inner-right-bot-text img{margin-bottom: 20px;}
+		.main-inner-right-bot-text span{color: #fff;font-size: 14px;font-weight: bold;}
+		.main-inner-right-bot-text p{color: #666666;font-size: 14px;font-weight: bold;line-height: 25px;}
+		.footer{background-image: url(images/indexImg/footer-bg_02.jpg);}
+		.footer-inner{width: 940px;height: 150px;margin: 0 auto;}
+		.fooetr-inner-center{width: 285px;height: 48px;margin-left: 270px;margin-top: 33px;float: left;}
+		.fooetr-inner-center p{font-size: 14px;font-weight: bold;color: #666666;line-height: 23px;}
+		.footer-inner-center-shangp{text-align: center;}
+		.fooetr-inner-center a{font-size: 14px;font-weight: bold;color: #fff;}
+		.footer-inner-right{width: 148px;height: 27px;float: right;margin-right: 170px;margin-top: 52px;}
+		.top-inner{width: 1025px;height: 143px;margin: 0 auto;}
+		.top-inner img{float: left;margin-top: 25px;}
+	</style>
+</head>
+<body>
+		<div class="top">
+			<div class="top-inner">
+				<img src="images/programImg/ye3-logo_03.gif" alt="">
+				<ul>
+					<li><a class="about" href="index.html">About</a></li>
+					<li><a href="pages/foundation.html">Foundation</a></li>
+					<li><a href="pages/program.html">Program</a></li>
+					<li><a href="pages/leaders.html">Leaders</a></li>
+					<li><a href="pages/gallery.html">Gallery</a></li>
+					<li><a href="pages/contacts.html">Contacts</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="banner">
+			<div class="banner-inner">
+				<div class="b-l-box">
+					<h3>Welcome to Eagles Boy Scout Troops!</h3>
+					<p>Eagles is one of <a href="#">free web templates</a> created by TemplateMonster.com team.it is optimized for1280*1024 resolution.This <a href="#">Eagles Template</a>goes with two packages we could see it flesh out before our eyes. It was tubular, all right, but fatter than we could see from far away. out before our eyes. It was tubular.</p>
+					<a class="b-l-more"href="#">more</a>
+				</div>
+				<img src="images/indexImg/maozi_03.png" alt="">
+			</div>
+		</div>
+		<div class="main">
+			<div class="main-inner">
+				<div class="maintop">
+					<img class="m-t-pic1"src="images/indexImg/maintop-1_03.png" alt="">
+					<img class="m-t-pic2"src="images/indexImg/maintop2_03.png" alt="">
+					<img class="m-t-pic3"src="images/indexImg/maintop3_03.png" alt="">
+				</div>
+				<div class="main-inner-left">
+					<div class="m-i-l-top">
+						<h3>Next Event</h3>
+						<img src="images/indexImg/rili_03.png" alt="">
+						<div class="m-i-l-text">
+							<p> <span>While sharing a nickel or a quarter may go</span> a long way for them, it is hard to believe the people would simply lie over and die. But to some people in such an unfortunate situation, it is more than simple surrender </p>
+							<p> that have led them to lose hope and live the rest of their days in misery.but another aspect of personal proportions </p>
+							<a href="">more</a>
+						</div>
+					</div>
+					<div class="m-i-l-bot">
+						<img class="m-i-l-botrili"src="images/indexImg/rili_03.png" alt="">
+						<div class="m-i-l-bot-text">
+							<img src="images/indexImg/mainleftbotpic_03.png" alt="">
+							<p><span>Money and support </span>is not all the things in a person's life. The matter of affection and care is also an invisible need that people tend to overlook.For people who fill the streets in rags and dirty clothes, a simple comfort and smile may eventually give their lives a new lease.</p>
+							<a href="">more</a>
+						</div>
+					</div>
+				</div>
+				<div class="main-inner-right">
+					<div class="main-inner-right-top">
+						<h3>&nbsp Our Advventures</h3>
+						<ul>
+							<li><p>Christmas arouses increasing</p></li>
+							<li><p>Christmas cards become popular</p></li>
+							<li><p>People hold Christmas parties</p></li>
+							<li><p>A lot or TV and radio programs</p></li>
+							<li><p>Meanwhile the Spring Festival</p></li>
+							<li><p>Spring Festival is the most</p></li>
+							<li><p>New Year's Day is important</p></li>
+						</ul>
+					</div>
+					<div class="main-inner-right-bot">
+						<div class="main-inner-right-bot-text">
+							<h4>trop#345Meetings</h4>
+							<img src="images/indexImg/main-inner-right_03.gif" alt="">
+							<span>Monday 9:00-12:00</span>
+							<p>January 1st is considered as the New Year's Day.most companies</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer">
+			<div class="footer-inner">
+				<div class="fooetr-inner-center">
+					<p class="footer-inner-center-shangp">Eagles Troops © 2012</p>
+					<p><a href="">Website Temliate</a>by TemplateMonster.com</p>
+				</div>
+				<div class="footer-inner-right">
+					<img src="images/indexImg/footer-f_03.gif" alt="">
+					<img src="images/indexImg/footer-22_03_03.gif" alt="">
+					<img src="images/indexImg/footer33_03.gif" alt="">
+					<img src="images/indexImg/footer44_03.gif" alt="">
+				</div>
+			</div>
+		</div>
+</body>
+</html>

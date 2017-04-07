@@ -1,0 +1,41 @@
+		.banner{background-image: url(images/banner-bg_02.jpg);}
+		.banner-inner{width: 977px;height: 348px;margin: 0 auto;position: relative;border: 1px red solid;}
+		.b-l-box{width: 590px;float: left;}
+		.banner h3{font-size: 29;color: #ffffff;margin-top: 67px;}
+		.banner p{color: #666666;font-size: 14px;font-weight: bold;margin-top: 22px;}
+		.banner p a{color: #cc3300;font-size: 14px;}
+		.b-l-more{display:block;width: 106px;height: 40px; font-size: 26px; color: #ffffff;line-height: 35px;text-align: center;background-image: url(images/more-bg_03.jpg);margin-top: 22px;border-radius: 4px;text-decoration: none;}
+		.banner img{float: right;position: absolute;top:-39px;left:620px;border: 1px red solid;}
+		.main{background-image: url(images/main-bg_02.jpg);}
+		.main-inner{width: 940px;height: 896px;margin: 0 auto;border: 1px red solid;}
+		.maintop{height: 260px;}
+		.maintop img{margin-top: 40px;}
+		.m-t-pic1{float: left;}
+		.m-t-pic2{float: left;margin-left: 20px;}
+		.m-t-pic3{float: right;}
+		.main-inner-left{width: 620px;height: 636px;border: 1px red solid;float: left;}
+		.m-i-l-top{width: 620px;height: 315px;}
+		.m-i-l-top h3{font-size: 35px;color: #ffffff;height: 40px;padding-top: 7px;}
+		.m-i-l-top img{float: left;margin-top: 17px;}
+		.m-i-l-text{width: 531px;height: 205px;margin-top: 24px;margin-left: 20px;float: left;border: 1px red solid;}
+		.m-i-l-text p{font-size: 14px;color: #666666;font-weight: bold;margin-bottom: 22px;}
+		.m-i-l-text span{color: #ffffff;}
+		.m-i-l-text a{display:block;width: 106px;height: 40px; font-size: 26px; color: #ffffff;line-height: 35px;text-align: center;background-image: url(images/more-bg_03.jpg);margin-top: 22px;border-radius: 4px;text-decoration: none;}
+		.m-i-l-bot{width: 620px;height: 321px;border: 1px red solid;}
+		.m-i-l-bot-text{width: 538px;height: 240px;border: 1px red solid;float: left;margin-top: 31px;margin-left: 20px;}
+		.m-i-l-botrili{margin-top: 31px;float: left;}
+		.m-i-l-bot-text img{float: left;}
+		.m-i-l-bot-text p{width: 303px;height: 173px;float: left;margin-left: 13px;border: 1px red solid;color: #666666;font-weight: bold;}
+		.m-i-l-bot-text span{color: #ffffff;font-weight: bold;}
+		.m-i-l-bot-text a{display:block;width: 106px;height: 40px; font-size: 26px; color: #ffffff;line-height: 35px;text-align: center;background-image: url(images/more-bg_03.jpg);margin-top: 180px;border-radius: 4px;text-decoration: none;}
+		.main-inner-right{width: 300px;height: 636px;border: 1px red solid;float: right;}
+		.main-inner-right ul{list-style: none;margin-left: 28px;}
+		.main-inner-right h3{width: 300px;height: 48px;background-color: #000000;border-radius: 6px; font-size: 24px;color: #ffffff;line-height: 48px;margin-bottom: 23px;}
+		.main-inner-right li{width: 250px;height: 35px;background-image: url(images/mainright-jt_03.png);background-repeat: no-repeat;background-position: left center;border-bottom: 1px #333333 dotted;}
+		.main-inner-right-top p{line-height: 35px;margin-left: 10px;font-size: 14px;font-weight: bold;color: #fff;}
+		.main-inner-right-bot{width: 300px;height: 212px;background-image: url(images/mainrightbot-bg_03.gif);border-radius: 7px;margin-top: 31px;padding-top: 20px;}
+		.main-inner-right-bot h4{font-size: 20px;color: #fff;margin-bottom: 15px;}
+		.main-inner-right-bot-text{width: 260px;height: 200px;border: 1px red solid;margin-left: 20px;}
+		.main-inner-right-bot-text img{margin-bottom: 20px;}
+		.main-inner-right-bot-text span{color: #fff;font-size: 14px;font-weight: bold;}
+		.main-inner-right-bot-text p{color: #666666;font-size: 14px;font-weight: bold;line-height: 25px;}

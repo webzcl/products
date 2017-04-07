@@ -1,0 +1,17 @@
+		*{margin: 0;padding: 0;}
+		.header,.main,.footer{min-width: 1005px;}
+		.header{background-color: #000000;}
+		header{width: 1025px;height: 143px;margin: 0 auto;}
+		.header img{float: left;margin-top: 25px;}
+		header ul{list-style: none;}
+		header a{text-decoration: none;font-size: 14px;color: #666666;margin-top: 69px;margin-right: 27px;float: left;font-weight: bold;}
+		header a:hover{color: #cc3300;}
+		.about{margin-left: 68px;}
+
+		.footer{background-image: url(../images/foundationImg/footer-bg_02.jpg);}
+		footer{width: 940px;height: 150px;margin: 0 auto;}
+		.footer-center{width: 285px;height: 48px;margin-left: 170px;margin-top: 33px;float: left;}
+		.footer-center p{font-size: 14px;font-weight: bold;color: #666666;line-height: 23px;}
+		.footer-center-shangp{text-align: center;}
+		.footer-center a{font-size: 14px;font-weight: bold;color: #fff;}
+		.footer-right{width: 148px;height: 27px;float: right;margin-right: 70px;margin-top: 52px;}
