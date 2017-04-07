@@ -1,0 +1,276 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+a,p,h2{
+	font-family: "微软雅黑"，"黑体";
+}
+html,body{
+	font-size: 20px;
+}
+body{
+	width: 100%;
+}
+header{
+	width: 100%;
+	margin: 0 auto;
+	border-bottom: 0.2rem solid rgba(204, 204, 204, 0.24);
+	background-color: #ffffff;
+}
+nav{
+	width: 17.43rem;
+	margin: 0 auto;
+	overflow: hidden;
+}
+nav>ul{
+	margin-top: 0.63rem;
+	margin-left: 0.38rem;
+	float: left;
+}
+li{
+	width: 0.75rem;
+	height: 0.275rem;
+	border-top: 2px solid #000;
+	border-bottom: 2px solid #000;
+}
+nav>ul>li:first-child{border-bottom: none;}
+.biaoti{
+	width: 4rem;
+	overflow: hidden;
+	float: left;
+	margin-top: 0.48rem;
+	margin-left: 5.75rem;
+}
+.o{
+	width: 1.18rem;
+	float: left;
+}
+.fdj{
+	width: 0.9rem;
+	float: right;
+	margin-top: 0.53rem;
+	margin-right: 0.48rem;
+}
+nav h2{
+	font-size: 1.13rem;
+	color: #333333;
+	line-height: 1.15rem;
+
+}
+.banner{
+	width: 100%;
+	margin-top: 0.83rem;
+}
+.banner img{
+	display: block;
+	width: 17.43rem;
+	margin: 0 auto;
+	margin-bottom: 0.05rem;
+}
+.main{
+	background-color: #fff;
+}
+.main-top{
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+	border-bottom: 0.2rem solid rgba(204, 204, 204, 0.24);
+}
+.main-top-top{
+	width: 17.75rem;
+	margin: 0 auto;
+	border-bottom: 1px solid #cccccc;
+	overflow: hidden;
+}
+.main-top h3{
+	font-size: 0.73rem;
+	line-height: 1.06em;
+	color: #333333;
+	border-left: 0.1rem solid #3399ff;
+	margin-top: 0.65rem;
+	margin-left: .63rem;
+	text-indent: 0.3rem;
+	float: left;
+}
+.chakan{
+	font-size: 0.58rem;
+	line-height: 3.19em;
+	color: #999999;
+	float: right;
+	margin-right: 0.58rem;
+} 
+.main-top img{
+	width: 6.83rem;
+	margin-top: 1.68rem;
+}
+.main-top .lixiaolai-pic{
+	width: 7.95rem;
+	position: absolute;
+	top:1.35rem;
+	left: 4.68rem;
+}
+.zenghui-left-pic{
+	float: left;
+	margin-left: 0.33rem;
+}
+.zenghui-right-pic{
+	float: right;
+	margin-right: 0.33rem;
+	margin-bottom: 1.75rem;
+}
+.left-zenghui{
+	position: absolute;
+	top:9.43rem;left: 1.75rem;
+}
+.main-top p{
+	color: #fff;
+	font-size: 0.47rem;
+	text-align: center;
+}
+
+.main-top span{
+	font-size: 0.75rem;
+}
+.jianjie{
+	text-align: center;
+}
+.mingzi{
+	text-align: center;
+}
+.right-zenghui{
+	position: absolute;
+	top:9.43rem;right: 1.25rem;
+}
+.center-lixiaolai{
+	position: absolute;
+	top:9.75rem;left: 6.6rem;
+}
+.main-top .huiyuan{
+	clear: both;
+	color: #999999;
+	font-size: 0.5rem;
+	text-align: center;
+	
+	margin-bottom: 0.8rem;
+}
+.main-top .ljyy{
+	display: block;
+	font-size: 0.7rem;
+	width: 4.5rem;
+	line-height: 1.54em;
+	text-align: center;
+	color: #3399ff;
+	border: 3px solid #3399ff;
+	margin: 0 auto;
+	margin-bottom: 0.88rem;
+}
+.main-bot h3{
+	font-size: 0.73rem;
+	color: #333333;
+	float: left;
+	border-left: 2px solid #3399ff;
+	margin-top: 0.85rem;
+	margin-bottom: 0.6rem;
+	text-indent: 0.33rem;
+	margin-left: 0.63rem;
+}
+.main-bot a{
+	display: block;
+	font-size: 0.58rem;
+	color: #999999;
+	float: right;
+	margin-top: 0.85rem;
+	margin-bottom: 0.6rem;
+	margin-right: 0.58rem;
+}
+.main-bot .dashuju{
+	overflow: hidden;
+	border-top: 1px solid #cccccc;
+	clear: both;
+}
+.main-bot img{
+	width: 7.48rem;
+	float: left;
+	margin-top: 0.53rem;
+	margin-left: 0.63rem;
+	margin-bottom: 0.4rem;
+}
+.main-bot .right-box{
+	float: right;
+	margin-top: 0.88rem;
+}
+.shang-p{
+	font-size: 0.73rem;
+	color: #666666;
+	font-weight: bold;
+}
+.xia-p{
+	font-size: 0.45rem;
+	color: #999999;
+	margin-top: 2.6rem;
+}
+footer{
+	border-top: 1px solid #cccccc;
+	overflow: hidden;
+	background-color: #fff;
+}
+footer article{
+	margin-top: 1rem;
+	margin-left: 0.48rem;
+	margin-right: 0.65rem;
+}
+footer h3{
+	font-size: 0.78rem;
+	color: #333333;
+	float: left;
+}
+footer h4{
+	font-size: 0.58rem;
+	color: #333333;
+	float: left;
+	margin-left: 0.73rem;
+	margin-bottom: 0.6rem;
+}
+footer p{
+	font-size: 0.53rem;
+	color: #999999;
+	clear: both;
+	margin-bottom: 0.8rem;
+}
+footer .yyjia{
+	width: 50%;
+	display: block;
+	font-size: 1rem;
+	line-height: 2em;
+	color: #3399ff;
+	border-top: 1px solid #3399ff;
+	border-bottom: 1px solid #3399ff;
+	float: left;
+	text-align: center;
+}
+footer .yyjia:hover{
+	background-color: #3399ff;
+	color: #fff;
+}
+footer .yy{
+	width: 50%;
+	display: block;
+	font-size: 0.88rem;
+	line-height: 2.29em;
+	color: #3399ff;
+
+	float: right;
+	border-top: 1px solid #3399ff;
+	border-bottom: 1px solid #3399ff;
+	text-align: center;
+}
+footer .yy:hover{
+	background-color: #3399ff;
+	color: #fff;
+}

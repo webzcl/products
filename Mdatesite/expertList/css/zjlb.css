@@ -1,0 +1,109 @@
+*{
+	margin: 0;padding: 0;
+}
+a,p,h2,h3,span{
+	text-decoration: none;
+	font-family: "微软雅黑","黑体";
+}
+nav{
+	border-bottom: 0.25rem solid rgba(204, 204, 204, 0.36);
+	overflow: hidden;
+}
+.liebiao{
+	width: 0.73rem;
+	float: left;
+	margin-left: 0.75rem;
+	margin-top: 0.68rem;
+}
+.canyin{
+	float: left;
+	overflow: hidden;
+	margin-left: 3.73rem;
+	margin-top: 0.43rem;
+}
+.canyin a{
+	display: block;
+	width: 3.73rem;
+	font-size: 0.68rem;
+	line-height: 1.89em;
+	border: 1px solid #3399ff;
+	float: left;
+	text-align: center;
+	margin-bottom: 0.35rem;
+	color: #3399ff;
+}
+.canyin a:hover{
+	background-color: #3399ff;
+	color: #fff;
+}
+.sousuo{
+	width: 0.85rem;
+	float: right;
+	margin-top: 0.6rem;
+	margin-right: 0.68rem;
+}
+figure{
+	width: 8.1rem;
+	height: 9.8rem;
+	background-image: url(../images/lixiaolai1_03.png);
+	background-size: 100% 100%;
+	padding-top: 0.38rem;
+	float: left;
+	margin-left: 0.65rem;
+	margin-top: 0.53rem;
+}
+.left-top{
+	margin-left: 0.35rem;
+} 
+.main h2{
+	width: 0.68rem;
+	height: 0.68rem;
+	font-size: 0.34rem;
+	line-height: 1.2em;
+	background-color: #3399ff;
+	border-radius: 3px;
+	text-align: center;
+}
+.main h3{
+	font-size: 0.6rem;
+	color: #fff;
+	margin-top: 0.28rem;
+}
+.main p{
+	font-size: 0.3rem;
+	color: #fff;
+}
+.center-bot{
+	width: 4.25rem;
+	margin-top: 4.02rem;
+	margin-left: 2.05rem;
+}
+.center-bot span{
+	display: block;
+	font-size: 0.73rem;
+	color: #fff;
+	text-align: center;
+	margin-bottom: 0.35rem;
+}
+.center-bot a{
+	display: block;
+	font-size: 0.7rem;
+	width: 4.2rem;
+	line-height: 1.89em;
+	border: 1px solid #fff;
+	text-align: center;
+	color: #fff;
+}
+.main figure:first-child{
+	clear: both;
+}
+.main figure:nth-child(4) h2{
+	background-color: #999999;
+}
+.main figure:nth-child(5) h2{
+	background-color: #999999;
+}
+.main figure:nth-child(6) h2{
+	background-color: #999999;
+}
+
