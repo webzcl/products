@@ -1,0 +1,43 @@
+*{
+	margin: 0;padding: 0;
+}
+a,p,h2,h3,span{
+	text-decoration: none;
+	font-family: "微软雅黑","黑体";
+}
+header{
+	background-image: url(../images/txzlbg_02.png);
+	height: 7rem;
+	background-size: 100% 100%;
+}
+.banner{
+	width: 3.1rem;
+	margin: 0 auto;
+}
+.banner img{
+	width: 3.1rem;
+	margin-top: 1.18rem;
+}
+.banner p{
+	font-size: 0.58rem;
+	color: #fff;
+	margin-top: 0.58rem;
+}
+input{
+	border: none;
+	font-size: 0.68rem;
+	height: 3.08rem;
+	width: 17.75rem;
+	border-bottom: 1px solid #ccc;
+}
+button{
+	display: block;
+	font-size: 0.73rem;
+	width: 5.65rem;
+	font-size: 0.73rem;
+	line-height: 2.17em;
+	background-color: #3399ff;
+	margin-top: 5.53rem;
+	margin-left: 6.2rem;
+	color: #fff;
+}

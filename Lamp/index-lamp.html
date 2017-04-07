@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+		body{margin: 0;}
+		h3,h4,p{margin: 0;}
+		.containterda{width: 1002px;height: 925px;background-color: #fff;}
+		.containter{width: 984px;height: 925px;background-color: #ffffff;margin-left: 9px;}
+		.top{width: 984px;height: 65px;background-color: #fff;}
+		.logo{float: left;margin-top: 15px;margin-left: 20px;}
+		.top-rightbox{width: 230px;height: 65px;float: right;background-color: #fff;}
+		.t-r-p{float: right;margin-right: 38px;}
+		.t-r-x{width: 230px;height: 20px;background-color: #669933;}
+		.t-r-box{width: 193px;height: 19px;border: 1px #cccccc solid;float: left;}
+		.fangdajing{float: right;margin-top: 2px;margin-right: 2px;}
+		.banner{width: 984px;height: 417px;background-color: #33cccc;}
+		.banner .nav{width: 984px;height: 31px;background-color: #33cc33;}
+		.sigezi{display: block;width: 109px;height: 31px;text-decoration: none;float: left;background-color: #cc0021;line-height: 31px;text-align: center;color:#f0ffff;font-size: 15px;}
+		.sigezi:hover{background-color: #5a5a5a;}
+		.lianggezi{display: block;width: 71px;height: 31px;text-decoration: none;float: left;background-color: #cc0021;line-height: 31px;text-align: center;color:#f0ffff;font-size: 15px;}
+		.lianggezi:hover{background-color: #5a5a5a;}
+		.wugezi{display: block;width: 150px;height: 31px;text-decoration: none;float: left;background-color: #cc0021;line-height: 31px;text-align: center;color:#f0ffff;font-size: 15px;}
+		.wugezi:hover{background-color: #5a5a5a;}
+		.banner .mid{width: 984px;height: 302px;background-color: #cc33cc;}
+		.banner .bot{width: 984px;height: 84px;background-color: #333333;}
+		.banner .pic{width: 244px;height: 84px;float: left;background-image: url(images/beijing1_25.jpg);border: 1px #e6e6e6 solid;}
+		.banner .pic:hover{background-image: url(images/beijing2_28.jpg);}
+		.deng{float: left;margin-left: 37px;margin-top: 5px;}
+		.rightbox{float: left;margin-left: 15px;}
+		.banner h3{font-size:16px;color:#484848;margin-top: 15px;}
+		.banner p{font-size: 12px;color: #909090;margin-top: 4px;}
+		.b-b-r{font-size: 12px;color: #ffffff;text-decoration: none;line-height: 18px;text-indent: 3px;display: block;width: 60px;height: 18px;;float: left;margin-top: 8px;background-color: #8d8d8d;}
+		.jt{float: right;margin-top: 7px;margin-right: 3px;}
+		.dianyuan{float: left;margin-left: 27px;margin-top: 8px;}
+		.dengju{float: left;margin-left: 28px;margin-top: 8px;}
+		.dengdai{float: left;margin-left: 21px;margin-top: 5px;}
+		.main{width: 984px;height: 347px;background-color: #ffffff;}
+		.main-left{width: 280px;height: 293px;margin-left: 32px;margin-top: 30px;float: left;background-color: #ffffff;}
+		h4{font-size: 14px;color: #464646;float: left;}
+		.m-l-a-1{display: block;width: 13px;height: 13px;text-decoration: none;background-color: #6d6d6d;float: right;font-size: 12px;text-align: center;color: #f8f6ff;margin-top: 9px;margin-bottom: 4px;}
+		.m-l-a-1:hover{background-color: #e51930;}
+		.m-l-a{display: block;width: 13px;height: 13px;text-decoration: none;background-color: #6d6d6d;float: right;font-size: 12px;text-align: center;color: #f8f6ff;margin-top: 9px;margin-bottom: 4px;margin-right: 1px;}
+		.m-l-a:hover{background-color: #e51930;}
+		.m-l-p{width: 280px;height: 162px;border: 1px #e8e8e8 solid;}
+		.m-l-t{font-size: 12px;color: #7e7e7e;word-spacing: 1px;}
+		.m-l-jieshao{display: block;width: 81px;height: 23px;background: #cc0021;text-decoration: none;margin-top: 12px;font-size: 12px;color: #fbffea;line-height: 23px;text-align: center;}
+		.main-center{width: 353px;height: 293px;margin-left: 29px;margin-top: 30px;float: left;background-color: #ffffff;}
+		.m-c-ul{list-style: none;margin: 0;padding: 0;margin-left: 26px;margin-top: 32px;}
+		.m-c-li{width: 300px;height: 36px;border-top: 1px #aaaaaa dotted;font-size: 12px;color: #333333;line-height: 36px;}
+		.m-c-h4{margin-left: 29px;}
+		.m-c-more{float: right;text-decoration: none;font-size: 12px;color: #d50024;margin-top: 9px;margin-right: 26px;}
+		.m-r-more{float: right;text-decoration: none;font-size: 12px;color: #d50024;margin-top: 9px;}
+		.main-right{width: 280px;height: 293px;margin-top: 30px;float: left;background-color: #ffffff;}
+		.m-r-pic{margin-top: 7px;float: right;margin-bottom: 13px;}
+		.m-r-li{margin: 0;font-size: 12px;margin-bottom: 12px;color: #333333;}
+		.footer{width: 984px;height: 95px;background-color: #ffffff;}
+		.f-box{width: 984px;height: 45px;background-color: #333333;}
+		.f-l-p{float: left;margin-left: 38px;margin-top: 17px;font-size: 12px;color: #ffffff;}
+		.f-r-p{float: right;margin-right: 30px;margin-top: 17px;font-size:12px;color: #ffffff;}
+	</style>
+</head>
+<body>
+	<div class="containterda">
+		<div class="containter">
+			<div class="top">
+				<img class="logo" src="images/h-logo_07.jpg" alt="">
+				<div class="top-rightbox">
+					<p class="t-r-p">中文版|ENGLISH</p>
+					<div class="t-r-box"></div>
+					<img class="fangdajing" src="images/h-fangdajing_10.jpg" alt="">
+				</div>
+			</div>
+			<div class="banner">
+				<div class="nav">
+					<a class="lianggezi" href="https://taobao.com">首页</a>
+					<a class="sigezi"href="#">关于我们</a>
+					<a class="sigezi"href="#">产品中心</a>
+					<a class="sigezi"href="#">新闻中心</a>
+					<a class="sigezi"href="#">产品应用</a>
+					<a class="sigezi"href="#">商务合作</a>
+					<a class="wugezi" href="#">服务与支持</a>
+					<a class="sigezi"href="#">人力资源</a>
+					<a class="sigezi"href="#">联系我们</a>
+				</div>
+				<div class="mid">
+					<img src="images/hdapic_18.jpg" alt="">
+				</div>
+				<div class="bot">
+					<div class="pic pic1">
+						<img class="deng"src="images/dengpao_31.png" alt="">
+						<div class="rightbox">
+							<h3>芯片封装</h3>
+							<p>优越品质  绿色环保</p>
+							<a class="b-b-r"href="#">
+								 详细介绍
+								<img class="jt"src="images/hjiantou_75.png" alt="">
+							</a>
+						</div>
+					</div>
+					<div class="pic pic2">
+						<img class="dianyuan"src="images/hdianyuan_41.png" alt="">
+						<div class="rightbox">
+							<h3>LED电源</h3>
+							<p>专业技术 高效耐用</p>
+							<a class="b-b-r"href="#">
+								 详细介绍
+								<img class="jt"src="images/hjiantou_75.png" alt="">
+							</a>
+						</div>
+					</div>
+					<div class="pic pic3">
+						<img class="dengju"src="images/hdengtong_43.png" alt="">
+						<div class="rightbox">
+							<h3>LED灯具</h3>
+							<p>领先科技 节能高效</p>
+							<a class="b-b-r"href="#">
+								 详细介绍
+								<img class="jt"src="images/hjiantou_75.png" alt="">
+							</a>
+						</div>
+					</div>
+					<div class="pic pic4">
+						<img class="dengdai"src="images/hdengdai_38.png" alt="">
+						<div class="rightbox">
+							<h3>通讯模块</h3>
+							<p>超强信号 优质体验</p>
+							<a class="b-b-r"href="#">
+								 详细介绍
+								<img class="jt"src="images/hjiantou_75.png" alt="">
+							</a>
+						</div></div>
+				</div>
+			</div>
+			<div class="main">
+				<div class="main-left">
+					<div>
+						<h4>新品推荐</h4>
+						<a class="m-l-a-1"href="#">6</a>
+						<a class="m-l-a"href="#">5</a>
+						<a class="m-l-a"href="#">4</a>
+						<a class="m-l-a"href="#">3</a>
+						<a class="m-l-a"href="#">2</a>
+						<a class="m-l-a"href="#">1</a>
+					</div>
+					<img class="m-l-p" src="images/hxinpintuijian_86.jpg" alt="">
+					<p class="m-l-t">ADAYO品牌的GU10/E27射灯是220V LED射灯的理想替代品。这款GU10/E27射灯是高效的LED射灯产品，仅仅只消耗了5W的电压，真正意义上降低了能源...</p>
+					<a class="m-l-jieshao" href="">详细介绍>></a>
+				</div>
+				<div class="main-center">
+					<div>
+						<h4 class="m-c-h4">新闻动态</h4>
+						<a class="m-c-more" href="">MORE>></a>
+					</div>
+					<ul class="m-c-ul">
+						<li class="m-c-li"> <img class="m-c-jt"src="images/h-hongse-jt_03.jpg" alt=""> 华阳热看LED产业，组建光电技术公司激流扬帆</li>
+						<li class="m-c-li"> <img class="m-c-jt"src="images/h-hongse-jt_03.jpg" alt=""> 二零一零年LED灯具国内业务市场研讨会</li>
+						<li class="m-c-li"> <img class="m-c-jt"src="images/h-hongse-jt_03.jpg" alt=""> 华阳LED扬帆远航</li>
+						<li class="m-c-li"> <img class="m-c-jt"src="images/h-hongse-jt_03.jpg" alt=""> 惠州市重点路段LED路灯项目</li>
+						<li class="m-c-li"> <img class="m-c-jt"src="images/h-hongse-jt_03.jpg" alt=""> 创变2012一走进新成立的灯具国内业务本部</li>
+						<li class="m-c-li"> <img class="m-c-jt"src="images/h-hongse-jt_03.jpg" alt=""> 华阳高科技产品全线亮相惠州外经贸展销会</li>
+						<li class="m-c-li"> <img class="m-c-jt"src="images/h-hongse-jt_03.jpg" alt=""> 华阳集团再获中国信保“AAA”信用评级</li>
+					</ul>
+				</div>
+				<div class="main-right">
+					<div>
+						<h4>产品应用</h4>
+						<a class="m-r-more" href="">MORE>></a>
+					</div>
+					<img class="m-r-pic"src="images/h-m-right_03.jpg" alt="">
+					<ul>
+						<li class="m-r-li">惠州市重点路段LED路灯项目</li>
+						<li class="m-r-li">惠州市重点路段LED路灯项目</li>
+						<li class="m-r-li">惠州市重点路段LED路灯项目</li>
+						<li class="m-r-li">惠州市重点路段LED路灯项目</li>
+						<li class="m-r-li">惠州市重点路段LED路灯项目</li>
+					</ul>
+				</div>
+			</div>
+			<div class="footer">
+				<div class="f-box">
+					<p class="f-l-p">网站地图 | 访问统计 | 友情链接 | 法律申明</p>
+					<p class="f-r-p">华阳集团有限公司 版权所有</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>
